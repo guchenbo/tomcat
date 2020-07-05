@@ -9,21 +9,35 @@
     <description>Study Tomcat</description>
 
     <properties>
+<<<<<<< HEAD
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <java.version>1.8</java.version>
+=======
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
     </properties>
 
     <dependencies>
         <dependency>
+<<<<<<< HEAD
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
+=======
+            <groupId>org.easymock</groupId>
+            <artifactId>easymock</artifactId>
+            <version>3.4</version>
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
         </dependency>
         <dependency>
             <groupId>ant</groupId>
             <artifactId>ant</artifactId>
+<<<<<<< HEAD
             <version>1.6.5</version>
         </dependency>
         <dependency>
@@ -33,6 +47,11 @@
         </dependency>
 
         <dependency>
+=======
+            <version>1.7.0</version>
+        </dependency>
+        <dependency>
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
             <groupId>wsdl4j</groupId>
             <artifactId>wsdl4j</artifactId>
             <version>1.6.2</version>
@@ -45,7 +64,11 @@
         <dependency>
             <groupId>org.eclipse.jdt.core.compiler</groupId>
             <artifactId>ecj</artifactId>
+<<<<<<< HEAD
             <version>4.2.2</version>
+=======
+            <version>4.6.1</version>
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
         </dependency>
     </dependencies>
 

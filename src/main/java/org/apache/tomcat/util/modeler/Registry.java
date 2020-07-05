@@ -19,11 +19,14 @@
 package org.apache.tomcat.util.modeler;
 
 
+<<<<<<< HEAD
 import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
 import org.apache.tomcat.util.modeler.modules.ModelerSource;
 
 import javax.management.*;
+=======
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -34,6 +37,23 @@ import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.List;
 
+<<<<<<< HEAD
+=======
+import javax.management.DynamicMBean;
+import javax.management.MBeanAttributeInfo;
+import javax.management.MBeanInfo;
+import javax.management.MBeanOperationInfo;
+import javax.management.MBeanRegistration;
+import javax.management.MBeanServer;
+import javax.management.MBeanServerFactory;
+import javax.management.MalformedObjectNameException;
+import javax.management.ObjectName;
+
+import org.apache.juli.logging.Log;
+import org.apache.juli.logging.LogFactory;
+import org.apache.tomcat.util.modeler.modules.ModelerSource;
+
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
 /*
    Issues:
    - exceptions - too many "throws Exception"

@@ -16,6 +16,7 @@
  */
 package org.apache.tomcat.util.net;
 
+<<<<<<< HEAD
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.SocketAddress;
@@ -29,11 +30,24 @@ import java.util.Set;
 import javax.net.ssl.SSLEngine;
 import javax.net.ssl.SSLSessionContext;
 
+=======
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
 import org.apache.tomcat.util.compat.JreCompat;
 import org.apache.tomcat.util.net.SSLHostConfig.Type;
 import org.apache.tomcat.util.net.openssl.OpenSSLImplementation;
 import org.apache.tomcat.util.net.openssl.ciphers.Cipher;
 
+<<<<<<< HEAD
+=======
+import javax.net.ssl.SSLEngine;
+import javax.net.ssl.SSLSessionContext;
+import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.net.SocketAddress;
+import java.nio.channels.NetworkChannel;
+import java.util.*;
+
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
 public abstract class AbstractJsseEndpoint<S> extends AbstractEndpoint<S> {
 
     private String sslImplementationName = null;

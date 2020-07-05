@@ -22,7 +22,22 @@ derby.log
 # IntelliJ IDEA
 *.idea
 *.iml
+<<<<<<< HEAD
 
 # other
 output
 logs
+=======
+*.asc
+*.jj
+*.tmp
+maven-ant-tasks-*.jar
+thumbs.db
+Thumbs.db
+bin/setenv.*
+java/org/apache/catalina/startup/catalina.properties
+modules/jdbc-pool/bin
+modules/jdbc-pool/includes
+webapps/docs/jdbc-pool.xml
+target
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
