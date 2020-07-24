@@ -17,6 +17,9 @@
 
 package org.apache.catalina.util;
 
+<<<<<<< HEAD
+import org.apache.catalina.*;
+=======
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -25,11 +28,18 @@ import org.apache.catalina.LifecycleEvent;
 import org.apache.catalina.LifecycleException;
 import org.apache.catalina.LifecycleListener;
 import org.apache.catalina.LifecycleState;
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
 import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
 import org.apache.tomcat.util.ExceptionUtils;
 import org.apache.tomcat.util.res.StringManager;
 
+<<<<<<< HEAD
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+
+=======
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
 
 /**
  * Base implementation of the {@link Lifecycle} interface that implements the

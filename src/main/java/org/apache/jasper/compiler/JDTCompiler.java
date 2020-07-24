@@ -25,16 +25,23 @@ package org.apache.jasper.compiler;
  *
  * @author Remy Maucherat
  */
+<<<<<<< HEAD
+public class JDTCompiler{
+=======
 public class JDTCompiler {
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
 //                extends Compiler {
 //
 //    private final Log log = LogFactory.getLog(JDTCompiler.class); // must not be static
 //
+<<<<<<< HEAD
+=======
 //    public JDTCompiler(INameEnvironment environment, IErrorHandlingPolicy policy, CompilerOptions options,
 //                    ICompilerRequestor requestor, IProblemFactory problemFactory) {
 //        super(environment, policy, options, requestor, problemFactory);
 //    }
 //
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
 //    /**
 //     * Compile the servlet from .java file to .class file
 //     */

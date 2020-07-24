@@ -16,10 +16,13 @@
  */
 package org.apache.catalina.ant;
 
+<<<<<<< HEAD
+=======
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.apache.tools.ant.BuildException;
 import org.apache.tools.ant.Project;
 
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
 import java.io.BufferedOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -29,6 +32,13 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.nio.charset.StandardCharsets;
 
+<<<<<<< HEAD
+import org.apache.tomcat.util.codec.binary.Base64;
+import org.apache.tools.ant.BuildException;
+import org.apache.tools.ant.Project;
+
+=======
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
 /**
  * Abstract base class for Ant tasks that interact with the <em>Manager</em> web
  * application for dynamically deploying and undeploying applications. These

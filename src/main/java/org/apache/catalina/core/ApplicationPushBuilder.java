@@ -16,6 +16,26 @@
  */
 package org.apache.catalina.core;
 
+<<<<<<< HEAD
+import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Enumeration;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletRequestWrapper;
+import javax.servlet.SessionTrackingMode;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+=======
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
 import org.apache.catalina.Context;
 import org.apache.catalina.connector.Request;
 import org.apache.catalina.servlet4preview.http.PushBuilder;
@@ -27,6 +47,8 @@ import org.apache.tomcat.util.http.CookieProcessor;
 import org.apache.tomcat.util.http.parser.HttpParser;
 import org.apache.tomcat.util.res.StringManager;
 
+<<<<<<< HEAD
+=======
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletRequestWrapper;
 import javax.servlet.SessionTrackingMode;
@@ -36,6 +58,7 @@ import javax.servlet.http.HttpSession;
 import java.nio.charset.Charset;
 import java.util.*;
 
+>>>>>>> 0eac96f99f1b8790ce04ee0bdc39253bf0cff2f3
 public class ApplicationPushBuilder implements PushBuilder {
 
     private static final StringManager sm = StringManager.getManager(ApplicationPushBuilder.class);
