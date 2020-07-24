@@ -21,7 +21,7 @@ output
 # test/webapp-virtual-webapp use it:
 # target
 work
-build.properties
+#build.properties
 mvn.properties
 .checkstyle
 .classpath
@@ -37,9 +37,9 @@ maven-ant-tasks-*.jar
 thumbs.db
 Thumbs.db
 bin/setenv.*
-java/org/apache/catalina/startup/catalina.properties
+#java/org/apache/catalina/startup/catalina.properties
 modules/jdbc-pool/bin
 modules/jdbc-pool/includes
-webapps/docs/jdbc-pool.xml
+#webapps/docs/jdbc-pool.xml
 
 target
